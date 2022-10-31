@@ -1112,6 +1112,7 @@ class Monitor extends BeanModel {
     }
 
     /**
+     * TODO: improve the performance of this function
      * Check if monitor is under maintenance
      * @param {number} monitorID ID of monitor to check
      * @returns {Promise<boolean>}
